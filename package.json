@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@types/pg": "^8.6.1",
+    "optics-ts": "^2.1.0",
     "pg": "^8.7.1"
   },
   "devDependencies": {
