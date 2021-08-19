@@ -1,4 +1,4 @@
-# fp-postgres
+# fp-db
 
 [![Test](https:&#x2F;&#x2F;github.com&#x2F;japiirainen&#x2F;fp-postgres&#x2F;actions&#x2F;workflows&#x2F;build.yml&#x2F;badge.svg)](https:&#x2F;&#x2F;github.com&#x2F;japiirainen&#x2F;fp-postgres&#x2F;actions&#x2F;workflows&#x2F;build.yml)
 
