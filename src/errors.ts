@@ -158,7 +158,7 @@ export const makeTransactionRollbackError = (
 ): TransactionRollbackError =>
   new TransactionRollbackError(rollbackError, connectionError, context)
 export const isTransactionRollbackError = (
-  e: Error
+  e: unknown
 ): e is TransactionRollbackError => e instanceof TransactionRollbackError
 
 export class UnhandledConnectionError extends Error {
@@ -179,7 +179,7 @@ export const makeUnhandledConnectionError = (
   e: t.mixed
 ): UnhandledConnectionError => new UnhandledConnectionError(e)
 export const isUnhandledConnectionError = (
-  e: Error
+  e: unknown
 ): e is UnhandledConnectionError => e instanceof UnhandledConnectionError
 
 export class UnhandledPoolError extends Error {
